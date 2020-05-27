@@ -1,0 +1,65 @@
+######################
+# Intellij
+######################
+.idea/**
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+#####################
+# Eclipse
+#####################
+.classpath
+.project
+.settings
+
+######################
+# Gradle
+######################
+.gradle/**
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Directories
+######################
+/build/**
+/bin/**
+/spring_loaded/**
+/out/
+
+######################
+# Logs
+######################
+*.log
+logs
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+
+######################
+# this project
+######################
+**/sql_dump/**
+!install/**
+/work/mysql/**
+/work/mosquitto/data/**
+/work/mosquitto/log/**
