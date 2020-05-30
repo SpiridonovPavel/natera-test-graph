@@ -20,8 +20,8 @@ public final class TestData {
         return ThreadLocalRandom.current().nextInt();
     }
 
-    public static boolean randomBoolean() {
-        return ThreadLocalRandom.current().nextBoolean();
+    public static int randomInt(int bound) {
+        return ThreadLocalRandom.current().nextInt(bound);
     }
 
     public static String randomString(int count) {
